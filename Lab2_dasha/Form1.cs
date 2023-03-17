@@ -23,10 +23,10 @@
             textBox4.Text += "При Z = " + textBox3.Text + Environment.NewLine;
             double u;
             if(radioButton1.Checked)
-u = y * Math.Sin(x) * Math.Sin(x) + z;
-else if (radioButton2.Checked)
-   u = y * Math.Exp(Math.Sin(x)) ‐ z;
-else
+                u = y * Math.Sin(x) * Math.Sin(x) + z;
+            else if (radioButton2.Checked)
+                u = y * Math.Exp(Math.Sin(x)) ‐ z;
+            else
                 u = y * Math.Sin(Math.Sin(x)) + z;
             textBox4.Text += "U = " + u.ToString() + Environment.NewLine;
         }
